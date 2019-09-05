@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="_zone__entrance">
+        <img src="./images/bg_01.jpg" alt="">
+        <div class="_box__button">
+            <a class="_click__yes" href="javascript:;"></a>
+            <a class="_click__no" href="https://www.facebook.com/ScottishLeaderTW/"></a>
+        </div>
+    </div>
+
+    <div class="_zone__main__page display_none">
+        <div class="_zone__01">
+            <img src="./images/bg_02.jpg" alt="">
+            <div class="_wrap__object">
+                <div class="_box__menu">
+                    <img src="./images/icon_01.png" alt="">
+                </div>
+                <div class="_box__logo">
+                    <img src="./images/logo_01.png" alt="">
+                </div>
+                <div class="_box__arrow">
+                    <img src="./images/icon_02.png" alt="">
+                </div>
+                <div class="_box__title">
+                    <img src="./images/text_01.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="_zone__02">
+            <div class="_wrap__object">
+                <div class="_box__img">
+                    <img src="./images/bg_03.jpg" alt="">
+                </div>
+                <div class="_box__text">
+                    陽光海岸．世界的邊境島嶼
+                </div>
+            </div>
+            <div class="_wrap__object">
+                <div class="_box__img">
+                    <img src="./images/bg_04.jpg" alt="">
+                </div>
+                <div class="_box__text">
+                    夜色繁華．奢華的都市夜晚
+                </div>
+            </div>
+            <div class="_wrap__object">
+                <div class="_box__img">
+                    <img src="./images/bg_05.jpg" alt="">
+                </div>
+                <div class="_box__text">
+                    大地懷抱．空氣清新的草原
+                </div>
+            </div>
+            <div class="_box__tips">
+                <img src="./images/text_02.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="_zone__secondary__page">
+        <div class="_zone__01">
+            <img src="./images/bg_06.jpg" alt="">
+            <div class="_wrap__object">
+                <div class="_box__img">
+                    <img src="./images/content_01.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="_zone__02">
+            <img src="./images/bg_07.jpg" alt="">
+            <form class="_wrap__form" >
+                <div class="_box__input">
+                    <label for="name">中文姓名</label>
+                    <input type="text" id="name" placeholder="請輸入中文姓名" required>
+                </div>
+                <div class="_box__input">
+                    <label for="e_mail">E-mail</label>
+                    <input type="email" id="e_mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="請輸入E-mail" required>
+                </div>
+                <div class="_box__input">
+                    <label for="phone_no">手機號碼</label>
+                    <input type="text" id="phone_no" maxlength="10" pattern="[0-9]{10}" placeholder="請輸入電話號碼" required>
+                </div>
+                <div class="_box__input _box__input__verification">
+                    <label for="verification">驗證碼</label>
+                    <input type="text" id="verification" maxlength="4" required>
+                    <canvas id="canvas" width="120" height="40"></canvas>
+                </div>
+
+                <div class="_box__input _box__input__checkbox">
+                    <input type="checkbox" id="check">
+                    <label for="check"></label>
+                    <div class="text">我已了解並同意個資蒐集與使用之規定</div>
+                </div>
+
+                <div class="_box__input _box__input__submit">
+                    <input type="submit" value="送出並公開分享">
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>
